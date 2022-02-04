@@ -9,6 +9,7 @@
   overflow: auto;
   font-size: 12px;
   font-weight: normal;
+  overflow: visible;
 }
 .arlo .arlo-detail > div {
   margin-bottom: 0px;
