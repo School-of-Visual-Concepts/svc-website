@@ -4,7 +4,3 @@ body {
 .header {
   border-bottom: 10px solid red !important;
 }
-
-.arlo-filters-container {
-  display: none !important;
-}
