@@ -2,6 +2,17 @@
   max-width: 1500px;
 }
 
+/* buttons */
+.arlo .arlo-event-register, 
+.arlo .arlo-show-more {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 8px 15px;
+  border-radius: 0px;
+}
+
+/* ------------------------ */
+
 /* arlo - class grid */
 .arlo ul.arlo-event-list li.arlo-event-listitem {
   position: relative;
@@ -37,18 +48,11 @@
 
 /* hover */
 .arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
-  color: #fff;
-  background: #333;
+  color: #fff !important;
+  background: #333 !important;
   opacity: 1;
 }
 
 
 
-/* buttons */
-.arlo .arlo-event-register, 
-.arlo .arlo-show-more {
-  font-size: 12px;
-  font-weight: normal;
-  padding: 8px 15px;
-  border-radius: 0px;
-}
+
