@@ -1,3 +1,7 @@
 body {
 	background: #eee;
 }
+
+.header {
+	border-bottom: 10px solid black;
+}
