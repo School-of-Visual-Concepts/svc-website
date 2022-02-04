@@ -948,11 +948,7 @@ body {
 	 clear: both;
 	 height: 0;
 }
- .arlo .arlo-event-list .arlo-event-listitem {
-	 float: left;
-	 margin-right: 10px;
-	 margin-bottom: 10px;
-}
+
 
 /*
  .arlo * {
