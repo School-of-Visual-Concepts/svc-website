@@ -54,6 +54,12 @@
   opacity: 1;
 }
 
-
+/* CLASS DETAIL */
+#arlo-event-template ul.arlo-event-list li.arlo-event-listitem {
+  width: 33.33%;
+}
+#arlo-event-template ul.arlo-event-list li.arlo-event-listitem .arlo-eventlistitem-inner {
+  height: auto !important;
+}
 
 
