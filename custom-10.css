@@ -42,14 +42,15 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+.arlo .arlo-registration .arlo-event-register {
   color: #fff !important;
   background: #333 !important;
-  margin-top: 10px;
   opacity: 0;
 }
 
 /* hover */
-.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
+.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-event-register {
   opacity: 1;
 }
 
