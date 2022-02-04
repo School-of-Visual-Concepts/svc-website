@@ -1166,4 +1166,13 @@
  .arlo[max-width~="659px"] .arlo-page-header .arlo-page-title {
 	 margin-bottom: 0;
 }
+
+
+
+
+
+
+.arlo-filters-container {
+	display: none !important;
+}
  
