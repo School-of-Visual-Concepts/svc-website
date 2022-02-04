@@ -1,0 +1,36 @@
+.arlo {
+  max-width: 1500px;
+}
+
+.arlo ul.arlo-event-list li.arlo-event-listitem {
+  width: 20%;
+  float: left;
+  overflow: auto;
+  font-size: 12px;
+  font-weight: normal;
+}
+.arlo .arlo-detail > div {
+  margin-bottom: 0px;
+}
+.arlo .arlo-date {
+  font-size: 12px;
+  font-weight: normal;
+}
+.arlo .arlo-title {
+  font-size: 24px;
+}
+.arlo .arlo-session-info {
+  font-weight: normal;
+}
+.arlo .arlo-registration {
+  margin-top: 10px;
+}
+
+/* buttons */
+.arlo .arlo-event-register, 
+.arlo .arlo-show-more {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
