@@ -1,3 +1,7 @@
-.arlo-event-listitem .arlo-date {
+#upcoming-events {
+	border: 5px solid black;
+}
+
+.arlo .arlo-event-listitem .arlo-date {
 	font-size: 8px !important;
 }
