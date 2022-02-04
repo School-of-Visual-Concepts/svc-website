@@ -6,3 +6,12 @@
   font-size: 12px;
   font-weight: normal;
 }
+
+/* buttons */
+.arlo .arlo-event-register, 
+.arlo .arlo-show-more {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
