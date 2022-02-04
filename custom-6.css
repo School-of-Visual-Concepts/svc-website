@@ -3,6 +3,7 @@
 }
 
 .arlo ul.arlo-event-list li.arlo-event-listitem {
+  position: relative;
   width: 20%;
   float: left;
   overflow: auto;
@@ -18,11 +19,15 @@
 }
 .arlo .arlo-title {
   font-size: 24px;
+  line-height: 1.15em;
 }
 .arlo .arlo-session-info {
   font-weight: normal;
 }
 .arlo .arlo-registration {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
   margin-top: 10px;
 }
 
@@ -32,5 +37,5 @@
   font-size: 12px;
   font-weight: normal;
   padding: 8px 15px;
-  border-radius: 3px;
+  border-radius: 0px;
 }
