@@ -2,9 +2,11 @@
   max-width: 1500px;
 }
 
+/* arlo - class grid */
 .arlo ul.arlo-event-list li.arlo-event-listitem {
   position: relative;
   width: 20%;
+  min-height: 200px;
   float: left;
   overflow: auto;
   font-size: 12px;
@@ -30,7 +32,17 @@
   bottom: 0px;
   right: 0px;
   margin-top: 10px;
+  opacity: 0;
 }
+
+/* hover */
+.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
+  color: #fff;
+  background: #333;
+  opacity: 1;
+}
+
+
 
 /* buttons */
 .arlo .arlo-event-register, 
