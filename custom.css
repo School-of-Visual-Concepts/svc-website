@@ -1,3 +1,6 @@
 body {
   background: #000;
 }
+.header {
+  border-bottom: 10px solid red;
+}
