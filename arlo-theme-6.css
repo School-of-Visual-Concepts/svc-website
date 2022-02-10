@@ -587,10 +587,10 @@
 	 width: 25%;
 }
  .arlo .arlo-event-list[min-width~="1280px"] .arlo-event-listitem {
-	 width: 20%;
+	 width: 25%;
 }
  .arlo .arlo-event-list[min-width~="1520px"] .arlo-event-listitem {
-	 width: 16.66667%;
+	 width: 25%;
 }
  .arlo .arlo-page-title {
 	 font-size: 38px;
