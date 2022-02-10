@@ -36,7 +36,6 @@
 }
  .arlo {
 	 font-size: 16px;
-	 font-family: "Raleway", Arial, Tahoma, sans-serif;
 }
  .arlo .arlo-loading-overlay {
 	 position: fixed;
@@ -79,11 +78,7 @@
 	 border-radius: 0.5em;
 	 box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
 }
- .arlo html {
-	 font-family: sans-serif;
-	 -ms-text-size-adjust: 100%;
-	 -webkit-text-size-adjust: 100%;
-}
+
  .arlo html [type="button"] {
 	 -webkit-appearance: button;
 }
@@ -604,10 +599,7 @@
  .arlo .arlo-page-title[min-width~="551px"][max-width~="1279px"] {
 	 font-size: 2.8em;
 }
- .arlo .arlo-main-content {
-	 max-width: 1200px;
-	 margin: 0 auto;
-}
+
  .arlo .arlo-main-content .arlo-summary {
 	 line-height: 1.5;
 	 font-weight: normal;
@@ -1077,12 +1069,6 @@ body {
   background-color: rgba(0,0,0,.02);
 }
 
-.arlo {
-  font-family: "Open Sans", Arial, sans-serif;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
 .arlo .arlo-loading-overlay {
   position: fixed;
   z-index: 999;
@@ -1268,7 +1254,6 @@ body {
 .arlo .arlo-date {
   font-size: 1.8em;
   text-transform: uppercase;
-  font-family: "Montserrat", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -1291,7 +1276,6 @@ body {
     border-radius: 4px;
     box-shadow: none;
     display: inline-block;
-    font: 700 20px/26px 'Montserrat', sans-serif;
     outline: none;
     padding: 13px 25px;
     text-decoration: none;
