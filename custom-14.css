@@ -1,10 +1,8 @@
 
 /* links */
-a, .arlo .arlo-text-color-link {
+.arlo .arlo-text-color-link {
   color: #000 !important;
 }
-
-
 
 /* buttons */
 .arlo .arlo-event-register, 
@@ -16,6 +14,12 @@ a, .arlo .arlo-text-color-link {
   background: #00add5 !important;
   border-radius: 0px !important;
   border-color: transparent !important;
+}
+
+/* headings */
+h2, h3,
+.arlo .arlo-title {
+  color: #00add5 !important;
 }
 
 /* ------------------------ */
