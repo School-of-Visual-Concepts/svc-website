@@ -1,12 +1,21 @@
 
+/* links */
+a, .arlo .arlo-text-color-link {
+  color: #000 !important;
+}
+
+
 
 /* buttons */
 .arlo .arlo-event-register, 
 .arlo .arlo-show-more {
   font-size: 12px;
   font-weight: normal;
-  padding: 8px 15px;
-  border-radius: 0px;
+  color: #fff !important;
+  padding: 8px 15px !important;
+  background: #00add5 !important;
+  border-radius: 0px !important;
+  border-color: transparent !important;
 }
 
 /* ------------------------ */
@@ -54,10 +63,10 @@
 
 /* CLASS DETAIL */
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem {
-  /*width: 33.33%;*/
+  width: 33.33%;
 }
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem .arlo-eventlistitem-inner {
-  /*height: auto !important;*/
+  height: auto !important;
 }
 
 
