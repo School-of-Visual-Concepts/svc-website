@@ -48,8 +48,8 @@ h2, h3,
   font-weight: normal;
   overflow: visible;
 }
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-detail {
-  position: absolute;
+.arlo .arlo-detail {
+  position: absolute !important;
   bottom: 0px;
   left: 0px;
   right: 0px;
