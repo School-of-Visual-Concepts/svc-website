@@ -905,7 +905,7 @@
 	 text-align: left;
 	 padding: 16px 20px;
 	 background: #09142f;
-	 max-width: 250px;
+	 max-width: 300px;
 }
  .arlo .tooltip .tooltip-inner li {
 	 border-bottom: 1px solid #1c253d;
@@ -1116,9 +1116,6 @@ body {
   color: #262626;
 }
 
-.arlo .tooltipcontent {
-  display: none;
-}
 
 .arlo ul.arlo-event-list li.arlo-event-listitem {
   width: 20%;
