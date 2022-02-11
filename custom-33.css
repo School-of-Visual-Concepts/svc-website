@@ -33,19 +33,6 @@ h2, h3,
   display: none !important;
 }
 
-.arlo-sessions .tooltip .arlo-sesssion-name {
-  display: block !important;
-}
-.arlo-sessions .tooltip .arlo-sesssion-day {
-  display: inline-block !important;
-}
-.arlo-sessions .tooltip .arlo-sesssion-date {
-  display: inline-block !important;
-}
-.arlo-sessions .tooltip .arlo-sesssion-timespan {
-  display: block !important;
-}
-
 
 
 /* ------------------------ */
