@@ -66,6 +66,9 @@ h2, h3,
 }
 
 /* CLASS DETAIL */
+.arlo .arlo-page-header {
+  background: #00add5 !important;
+}
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem {
   width: 33.33%;
 }
