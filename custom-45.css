@@ -40,14 +40,17 @@ h2, h3,
 
 /* arlo - class grid */
 .arlo ul.arlo-event-list li.arlo-event-listitem {
-  position: relative;
+  position: relative !important;
   width: 25%;
-  min-height: 330px;
   float: left;
   overflow: auto;
   font-size: 12px;
   font-weight: normal;
   overflow: visible;
+}
+.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item {
+  position: relative !important;
+  min-height: 330px !important;
 }
 .arlo .arlo-detail {
   position: absolute !important;
