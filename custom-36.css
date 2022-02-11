@@ -77,7 +77,7 @@ h2, h3,
 }
 
 /* hover */
-.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
+.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-registration {
   opacity: 0;
 }
 .arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
