@@ -66,24 +66,36 @@ h2, h3,
 }
 
 /* CLASS DETAIL */
+.class-detail-wrapper {
+  display: flex;
+}
 .class-detail.col-1 {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
+  //display: inline-block;
+  //vertical-align: top;
+  //width: 50%;
 }
 .class-detail.col-2 {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
+  //display: inline-block;
+  //vertical-align: top;
+  //width: 50%;
 }
 .arlo .arlo-page-header {
   background: #00add5 !important;
 }
+.class-detail-wrapper .arlo-page-content {
+  padding: 0px !important;
+}
+.class-detail .arlo-event-list {
+  margin-top: 0px !important;
+}
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem {
-  width: 33.33%;
+  width: 100%;
+  float: none;
 }
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem .arlo-eventlistitem-inner {
   height: auto !important;
 }
-
+.class-detail .arlo-register-interest-container {
+  text-align: left !important;
+}
 
