@@ -75,8 +75,8 @@ h2, h3,
 }
 .arlo .arlo-registration {
   position: absolute;
-  bottom: 1px;
-  right: 1px;
+  bottom: 0px;
+  right: 0px;
 }
 .arlo .arlo-registration .arlo-event-register {
   color: #fff !important;
