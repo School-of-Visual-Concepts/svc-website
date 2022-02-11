@@ -27,7 +27,7 @@ h2, h3,
 
 /* tooltip */
 .arlo-sessions .tooltip {
-  width: 280px !important;
+  width: 250px !important;
 }
 .arlo-sessions .tooltip h4 {
   display: none !important;
