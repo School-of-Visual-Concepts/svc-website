@@ -73,14 +73,19 @@ h2, h3,
 .class-detail-wrapper {
   display: flex;
 }
+/* COL 1 */
 .class-detail.col-1 {
-  width: 50%;
-}
-.class-detail.col-2 {
   width: 50%;
 }
 .arlo .arlo-page-header {
   background: #00add5 !important;
+}
+.class-detail .arlo-content-field-listitem {
+  margin: 30px !important;
+}
+/* COL 2 */
+.class-detail.col-2 {
+  width: 50%;
 }
 .class-detail-wrapper .arlo-page-content {
   padding: 0px !important;
