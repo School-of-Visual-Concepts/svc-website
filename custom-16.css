@@ -66,6 +66,16 @@ h2, h3,
 }
 
 /* CLASS DETAIL */
+.class-detail.col-1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.class-detail.col-2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
 .arlo .arlo-page-header {
   background: #00add5 !important;
 }
