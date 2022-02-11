@@ -70,13 +70,23 @@ h2, h3,
 .arlo .arlo-registration .arlo-event-register {
   color: #fff !important;
   background: #333 !important;
-  opacity: 0;
+}
+.arlo .arlo-registration .arlo-event-register-info {
+  display: block;
+  padding: 15px;
 }
 
 /* hover */
-.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-event-register {
+.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
+  opacity: 0;
+}
+.arlo ul.arlo-event-list li.arlo-event-listitem:hover .arlo-registration {
   opacity: 1;
 }
+
+
+
+
 
 /* CLASS DETAIL */
 .class-detail-wrapper {
