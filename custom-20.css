@@ -97,6 +97,7 @@ h2, h3,
 .class-detail .arlo-register-interest,
 .class-detail .arlo-register-private-interest {
   text-align: left !important;
-  font-size: 0.08em !important;
+  font-size: 0.8em !important;
+  margin-bottom: 0px !important;
 }
 
