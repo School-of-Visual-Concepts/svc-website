@@ -113,5 +113,6 @@ h2, h3,
 /* basic height matching for class detail header boxes */
 .class-detail .arlo-page-header,
 .class-detail .arlo-eventlistitem-inner {
-  min-height: 300px;
+  padding: 4rem !important;
+  min-height: 350px;
 }
