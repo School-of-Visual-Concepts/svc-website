@@ -52,7 +52,7 @@ h2, h3,
   position: relative !important;
   min-height: 330px !important;
 }
-.arlo .arlo-detail {
+.arlo ul.arlo-event-list .arlo-detail {
   position: absolute !important;
   bottom: 0px;
   left: 0px;
@@ -66,14 +66,15 @@ h2, h3,
   font-size: 12px;
   font-weight: normal;
 }
-.arlo .arlo-title {
+.arlo ul.arlo-event-list .arlo-title {
+  width: 80%;
   font-size: 24px;
   line-height: 1.15em;
 }
 .arlo .arlo-session-info {
   font-weight: normal;
 }
-.arlo .arlo-registration {
+.arlo ul.arlo-event-list .arlo-registration {
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -82,7 +83,7 @@ h2, h3,
   color: #fff !important;
   background: #333 !important;
 }
-.arlo .arlo-registration .arlo-event-register-info {
+.arlo ul.arlo-event-list .arlo-registration .arlo-event-register-info {
   display: block;
   padding: 15px;
 }
