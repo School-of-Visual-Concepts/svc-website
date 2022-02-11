@@ -17,6 +17,10 @@
 }
 
 /* headings */
+h1,
+.arlo-page-title {
+  font-sie: 2.5rem !important;
+}
 h2, h3,
 .arlo .arlo-title {
   color: #00add5 !important;
