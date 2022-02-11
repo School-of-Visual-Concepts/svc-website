@@ -92,8 +92,11 @@ h2, h3,
   height: auto !important;
 }
 .class-detail .arlo-register-interest-container {
+  margin: 30px !important;
+}
+.class-detail .arlo-register-interest,
+.class-detail .arlo-register-private-interest {
   text-align: left !important;
   font-size: 0.08em !important;
-  margin: 30px !important;
 }
 
