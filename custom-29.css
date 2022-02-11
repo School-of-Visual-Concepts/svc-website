@@ -16,6 +16,11 @@
   border-color: transparent !important;
 }
 
+/* tooltip */
+.tooltip-content {
+  width: 300px !important;
+}
+
 /* headings */
 h1,
 .arlo .arlo-page-title {
