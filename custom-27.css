@@ -114,5 +114,5 @@ h2, h3,
 .class-detail .arlo-page-header,
 .class-detail .arlo-eventlistitem-inner {
   padding: 4rem !important;
-  min-height: 350px;
+  min-height: 400px !important;
 }
