@@ -70,14 +70,10 @@ h2, h3,
   display: flex;
 }
 .class-detail.col-1 {
-  //display: inline-block;
-  //vertical-align: top;
-  //width: 50%;
+  width: 50%;
 }
 .class-detail.col-2 {
-  //display: inline-block;
-  //vertical-align: top;
-  //width: 50%;
+  width: 50%;
 }
 .arlo .arlo-page-header {
   background: #00add5 !important;
@@ -97,5 +93,7 @@ h2, h3,
 }
 .class-detail .arlo-register-interest-container {
   text-align: left !important;
+  font-size: 0.08em !important;
+  margin: 30px !important;
 }
 
