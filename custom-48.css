@@ -135,6 +135,14 @@ h2, h3,
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem .arlo-eventlistitem-inner {
   height: auto !important;
 }
+.arlo .class-detail .arlo-show-more-container {
+  padding: 0px;
+}
+.arlo .class-detail .arlo-show-more-container .arlo-show-more {
+  display: block;
+  width: 100%;
+  padding: 0px;
+}
 .arlo .class-detail .arlo-register-interest-container {
   margin: 30px !important;
 }
