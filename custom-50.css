@@ -98,9 +98,9 @@ h2, h3,
 
 
 
+/* ------------------------ */
 
-
-/* CLASS DETAIL */
+/* ARLO - CLASS DETAIL */
 .arlo .class-detail-wrapper {
   display: flex;
 }
@@ -109,7 +109,19 @@ h2, h3,
   width: 50%;
 }
 .arlo .class-detail .arlo-page-header {
+  position: relative;
   background: #00add5 !important;
+}
+.arlo .class-detail .arlo-class-categories {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.arlo .class-detail .arlo-class-categories ul li {
+  font-size: 10px;
+  background: #fff;
+  padding: 5px 8px;
+  margin-right: 1px;
 }
 .arlo .class-detail .arlo-main-content .arlo-summary {
   font-size: inherit !important;
@@ -142,12 +154,11 @@ h2, h3,
 .arlo .class-detail .arlo-show-more-container .arlo-show-more {
   display: block;
   width: 100%;
-  color: #333 !important;
+  /*color: #333 !important;
   text-align: left;  
   font-size: 10px !important;
   background: #e0eef1 !important;
-  padding: 0px;
-  padding-left: 10% !important;
+  padding-left: 10% !important;*/
 }
 .arlo .class-detail .arlo-register-interest-container {
   margin: 30px !important;
