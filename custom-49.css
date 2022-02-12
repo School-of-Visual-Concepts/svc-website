@@ -135,13 +135,19 @@ h2, h3,
 #arlo-event-template ul.arlo-event-list li.arlo-event-listitem .arlo-eventlistitem-inner {
   height: auto !important;
 }
+/* ARLO - SHOW MORE DATES BTN */
 .arlo .class-detail .arlo-show-more-container {
   padding: 0px;
 }
 .arlo .class-detail .arlo-show-more-container .arlo-show-more {
   display: block;
   width: 100%;
+  color: #333 !important;
+  text-align: left;  
+  font-size: 10px !important;
+  background: #e0eef1 !important;
   padding: 0px;
+  padding-left: 10% !important;
 }
 .arlo .class-detail .arlo-register-interest-container {
   margin: 30px !important;
