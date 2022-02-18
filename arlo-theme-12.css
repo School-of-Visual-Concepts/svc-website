@@ -18,6 +18,8 @@
 		 transform: rotate(360deg);
 	}
 }
+
+/*
  html {
 	 box-sizing: border-box;
 }
@@ -34,6 +36,7 @@
 	 overflow-y: scroll;
 	 margin: 0;
 }
+*/
 
  .arlo .arlo-loading-overlay {
 	 position: fixed;
@@ -77,6 +80,7 @@
 	 box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
 }
 
+/*
  .arlo html [type="button"] {
 	 -webkit-appearance: button;
 }
@@ -331,6 +335,8 @@
 	 color: inherit;
 	 padding: 0;
 }
+*/
+
  .arlo ol {
 	 list-style: none;
 	 padding: 0;
@@ -412,6 +418,7 @@
  .arlo .arlo-font-size-larger {
 	 font-size: 110%;
 }
+
  .arlo .arlo-clearfix:after {
 	 visibility: hidden;
 	 display: block;
@@ -420,6 +427,8 @@
 	 clear: both;
 	 height: 0;
 }
+
+/*
  .arlo .arlo-event-list {
 	 margin-top: 10px;
 }
@@ -437,6 +446,8 @@
 	 clear: both;
 	 height: 0;
 }
+*/
+
  .arlo * {
 	 box-sizing: border-box;
 }
@@ -454,7 +465,7 @@
 /* CLASS DETAIL ----------------------------------------------------------- */
 
 
-
+/*
  .arlo #arlo-filter-toggle {
 	 display: none;
 }
@@ -532,19 +543,26 @@
 	 outline: none;
 	 background-color: transparent !important;
 }
+*/
+
+/*
  .arlo .arlo-page-header {
 	 background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/597099/header-bg.jpg);
 	 background-size: cover;
 	 padding: 4em;
 	 background-position: center center;
 }
+*/
+
+/*
  .arlo .arlo-page-content {
 	 padding: 10px 18px;
 }
+*/
+
  .arlo .arlo-event-list[max-width~="499px"] .arlo-event-listitem {
 	 width: 100%;
 	 display: block;
-	 padding: 10px 0;
 }
  .arlo .arlo-event-list[min-width~="500px"] .arlo-event-listitem {
 	 width: 50%;
