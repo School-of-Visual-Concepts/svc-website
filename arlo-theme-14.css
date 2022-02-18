@@ -1127,10 +1127,10 @@ body {
   overflow: auto;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-event-register,
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item,
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-detail,
 .arlo a,
+.arlo-event-list .arlo-list-item,
+.arlo-event-list .arlo-list-item:hover .arlo-detail,
+.arlo-event-list .arlo-list-item:hover .arlo-event-register,
 .arlo .arlo-show-more {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1138,7 +1138,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item {
+.arlo-event-list .arlo-list-item {
   background-color: white;
   display: block;
   border: 1px solid #efefef;
@@ -1147,36 +1147,37 @@ body {
   font-weight: 300;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover {
+.arlo-event-list .arlo-list-item:hover {
   background-color: #00add5;
   opacity: 1;
   color: white;
   border-color: #00add5;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-detail {
+.arlo-event-list .arlo-list-item:hover .arlo-detail {
   color: #ffb1bc;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-event-register {
+.arlo-event-list .arlo-list-item:hover .arlo-event-register {
   background-color: white;
   color: #00add5;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-event-register:hover,
+.arlo-event-list .arlo-list-item:hover .arlo-event-register:hover,
 .arlo .arlo-show-more:hover {
   background-color: #565656;
   color: white;
 }
 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover li.arlo-offer-li.arlo-discount-offer, 
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-original-price,
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover .arlo-session-info,
-.arlo ul.arlo-event-list li.arlo-event-listitem .arlo-list-item:hover a {
+.arlo-event-list .arlo-list-item:hover li.arlo-offer-li.arlo-discount-offer, 
+.arlo-event-list .arlo-list-item:hover .arlo-original-price,
+.arlo-event-list .arlo-list-item:hover .arlo-session-info,
+.arlo-event-list .arlo-list-item:hover a {
   color: white;
 }
 
-.arlo ul.arlo-event-list[max-width~="1500px"] li.arlo-event-listitem {
+/*
+.arlo .arlo-event-list[max-width~="1500px"] li.arlo-event-listitem {
   width: 25%;
 }
 
@@ -1191,18 +1192,19 @@ body {
 .arlo ul.arlo-event-list[max-width~="600px"] li.arlo-event-listitem {
   width: 100%;
 }
+*/
 
-.arlo .arlo-detail {
+.arlo-detail {
   margin-top: 15px;
   color: #b5b5b5;
 }
 
-.arlo .arlo-title {
+.arlo-title {
   margin-top: 8px;
   font-weight: bold;
 }
 
-.arlo .arlo-title a {
+.arlo-title a {
   font-size: 1.2em;
   font-weight: 300;
 }
