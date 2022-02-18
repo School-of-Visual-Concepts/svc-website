@@ -428,7 +428,7 @@
 	 height: 0;
 }
 
-/*
+
  .arlo .arlo-event-list {
 	 margin-top: 10px;
 }
@@ -446,7 +446,7 @@
 	 clear: both;
 	 height: 0;
 }
-*/
+
 
  .arlo * {
 	 box-sizing: border-box;
@@ -462,7 +462,7 @@
 
 
 
-/* CLASS DETAIL ----------------------------------------------------------- */
+/* CLASS FILTERS ----------------------------------------------------------- */
 
 
 /*
@@ -545,20 +545,13 @@
 }
 */
 
-/*
- .arlo .arlo-page-header {
-	 background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/597099/header-bg.jpg);
-	 background-size: cover;
-	 padding: 4em;
-	 background-position: center center;
-}
-*/
 
-/*
- .arlo .arlo-page-content {
-	 padding: 10px 18px;
+
+
+/* CLASS LIST (GRID) ----------------------------------------------------------- */
+
+.arlo-eventtemplatecatalogue-listitem {
 }
-*/
 
  .arlo .arlo-event-list[max-width~="499px"] .arlo-event-listitem {
 	 width: 100%;
@@ -573,12 +566,13 @@
  .arlo .arlo-event-list[min-width~="1024px"] .arlo-event-listitem {
 	 width: 25%;
 }
- .arlo .arlo-event-list[min-width~="1280px"] .arlo-event-listitem {
+ .arlo .arlo-event-list[min-width~="1280px"] li {
 	 width: 25%;
 }
- .arlo .arlo-event-list[min-width~="1520px"] .arlo-event-listitem {
+ .arlo .arlo-event-list[min-width~="1520px"] li {
 	 width: 25%;
 }
+
  .arlo .arlo-page-title {
 	 font-size: 2em;
 	 line-height: 1;
