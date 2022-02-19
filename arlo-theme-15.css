@@ -1154,10 +1154,6 @@ body {
   border-color: #00add5;
 }
 
-.arlo-event-list .arlo-list-item:hover .arlo-detail {
-  color: #ffb1bc;
-}
-
 .arlo-event-list .arlo-list-item:hover .arlo-event-register {
   background-color: white;
   color: #00add5;
@@ -1194,10 +1190,6 @@ body {
 }
 */
 
-.arlo-detail {
-  margin-top: 15px;
-  color: #b5b5b5;
-}
 
 .arlo-title {
   margin-top: 8px;
